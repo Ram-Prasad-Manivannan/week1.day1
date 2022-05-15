@@ -7,6 +7,12 @@ public class PrimeNumber
 	{
 		 int num = 13;
 	        boolean flag = false;
+		if(num==1 || num==0)
+		{
+			System.out.println("It is a Prime Number");
+		}
+		else
+		{
 	        for(int i = 2; i <= num/2; ++i)
 	        {
 	            if(num % i == 0)
@@ -22,5 +28,5 @@ public class PrimeNumber
 	            System.out.println(num + " is not a prime number.");	
 
 	}
-
+	}
 }
